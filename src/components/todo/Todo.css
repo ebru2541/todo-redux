@@ -31,10 +31,10 @@
   margin: 10px;
 }
 
-.clear-wrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.clear-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .clear-button {
@@ -51,9 +51,7 @@
   cursor: pointer;
 }
 
-body{
-  background-color: azure;
+body {
+  background-color: rgb(18, 228, 228);
   color: white;
-
 }
-
