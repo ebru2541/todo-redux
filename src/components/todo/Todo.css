@@ -57,10 +57,3 @@ body{
 
 }
 
-.app{
-  background-color: rgba(0, 0, 0, 0.343);
-  width: fit-content;
-  height: fit-content;
-  padding: 1rem;
-    margin: auto;
-}
