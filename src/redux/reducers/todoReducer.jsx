@@ -36,7 +36,7 @@ const todoReducer = (state = initialState, { type, payload }) => {
 
     default:
       return {
-        todoList: JSON.parse(localStorage.getItem("todoList")),
+        todoList: JSON.parse(localStorage.getItem("todoList")) || [],
       };
   }
 };
