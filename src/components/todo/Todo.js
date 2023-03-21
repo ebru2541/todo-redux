@@ -15,7 +15,7 @@ const Todo = () => {
 
   return (
     <div className="app">
-      <h2>Todo With Redux</h2>
+      <h1>Todo With Redux</h1>
       <TodoInput />
       <TodoList />
     </div>
