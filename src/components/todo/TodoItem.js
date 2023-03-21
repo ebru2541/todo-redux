@@ -4,7 +4,6 @@ import deleteLogo from "../../assets/delete.png";
 import { useDispatch } from "react-redux";
 import {
   deleteTodo,
-  newGetTodo,
   toggleTodo,
 } from "../../redux/actions/todoAction";
 
@@ -21,7 +20,6 @@ const TodoItem = ({ todo }) => {
   };
 
   const handleDelete = (e) => {
-      dispatch(newGetTodo());
     console.log(id);
     dispatch(deleteTodo(id));
   };

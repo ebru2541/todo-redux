@@ -2,7 +2,6 @@ import {
   ADD_TODO,
   CLEAR_TODO,
   DELETE_TODO,
-  NEWGET_TODO,
   TOGGLE_TODO,
 } from "../types/todoTypes";
 
